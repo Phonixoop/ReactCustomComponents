@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "iransans" !important;
+}
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d212a;
+}
+.App {
+  flex-direction: column;
+  justify-content: normal;
+  width: 320px;
+  height: 330px;
+  padding: 2em;
+  margin: 10px;
+  background-color: #333742;
+  border-radius: 35px;
+  box-shadow: inset 1px 0 0 #e1e1e126;
+}

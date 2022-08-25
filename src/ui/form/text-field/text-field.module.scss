@@ -1,0 +1,55 @@
+
+.wrapper
+{
+  $size : 1.4rem;
+  font-size:  $size;
+  width: 100%;
+  min-height: 6em;
+  background-color: #2C303B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+  .icon 
+  {
+    height:10px;
+    background-color:green;
+    width: 50px;
+  }
+  .inner 
+  {
+    position: relative;
+    background-color:red;
+    padding: 0 5px;
+    width: 50px;
+    flex-grow: 1;
+  }
+  .right 
+  {
+    width: 10px;
+    height:10px;
+    background-color:yellow;
+    padding: 0 5px;
+    width: 50px;
+  }
+}
+
+.wrapper input 
+{
+  position: relative;
+  outline:none;
+  border:none;
+  background-color:transparent;
+  color:#ffffff;
+  font-size: 1.6em;
+  width: 100%;
+}
+.wrapper label
+{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
